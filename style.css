@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    background-image: url(https://media1.tenor.com/m/XPiWs5il8owAAAAC/tung-tungtung-tungtungtung-sahur-tungtungtungsahur-tungtungsahur.gif);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.gifFloat{
+    position: fixed;
+    width: 200px;
+    animation: float 4s infinite;
+}
+
+.gif1{
+    top: 20%; left: 5%;
+}
+.gif2{
+    top: 30%; left: 70%; animation-delay: 0.7s  ;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+.content {
+    border: 6px solid black;
+    border-radius: 100vh;
+    background-color: azure;
+    padding: 20px;
+    text-align: center;
+}
